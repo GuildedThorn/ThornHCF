@@ -1,0 +1,25 @@
+# DO NOT change this, this is used for config versioning in cases where this is needed to be updated
+Version: 1.0.0
+
+API:
+  # url of API (https://github.com/GuildedThorn/Thorn.NET/tree/main/ThornAPI)
+  address: https://api.guildedthorn.com
+  # Bearer token ( 25 characters )
+  token: 1234567891234567891234567\
+
+Bot:
+  # Discord Bot Token
+  token: token
+  # Discord Bot Prefix
+  prefix: hcf!
+  # Discord Bot Activity Type
+  # 1. Watching
+  # 2. Listening
+  # 3. Competing
+  # 4. Playing
+  # 5. Streaming
+  activity_type: 1
+  # Discord Bot Activity Message
+  activity_message: the server!
+  # Used if Streaming Activity is set
+  activity_url: https://twitch.tv/GuildedThorn
